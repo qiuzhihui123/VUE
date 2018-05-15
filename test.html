@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <h3>{{message}}</h3>
+        <h4>{{madecao}}</h4>
+
+    </div>
+    <script src="/static/js/vue.js"> </script>
+
+    <script>
+        var vm = new Vue({
+            el: "#app",
+            data: {
+                message:"周运费，小傻瓜",
+                madecao:'妈的草，大傻逼'
+            }
+        })
+
+    </script>
+
+</body>
+
+</html>
